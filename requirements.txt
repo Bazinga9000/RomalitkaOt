@@ -1,0 +1,5 @@
+discord
+ruamel.yaml
+requests
+numpy
+grilops
