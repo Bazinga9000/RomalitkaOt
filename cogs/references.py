@@ -95,12 +95,12 @@ class References(commands.Cog):
         """
         return await self.send_image(ctx, "nato.png")
 
-    @commands.command(aliases=["color_codes", "colorcodes"])
+    @commands.command(aliases=["color_codes", "colorcodes","resistors"])
     async def resistor(self, ctx):
         """
         Display a reference for Resistor Color Codes.
         """
-        return await self.send_image(ctx, "resistor.png")
+        return await self.send_image(ctx, "resistor_color_codes.jpg")
 
     @commands.command()
     async def scrabble(self, ctx, language="english"):
